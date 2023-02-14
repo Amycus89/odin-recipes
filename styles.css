@@ -1,29 +1,25 @@
-/*Color palette: #FAF1E6 #FDFAF6 #E4EFE7 #064420*/
+/*Color palette: #FAF1E6 #FDFAF6 #E4EFE7 #064420 #a10800*/
 h1 {
     margin: 15px;
+    color: #a10800;
 }
 
 h2 {
     margin: 5px auto -10px 5px;
-    color: #99DDCC;
+    color: #064420;
     border-radius: 9px;
 }
 
 header {
-    background-color: #BAD7DF;
+    background-color: #FDFAF6;
     margin: 0;
     padding: 2px;
-    border-bottom: 5px solid #99DDCC;
+    border-bottom: 5px solid #FAF1E6;
 }
 
 body {
     margin: 0;
-}
-
-main {
-    background-color:#F6F6F6;
-    border-radius: 9px;
-    padding-bottom: 1px;
+    background-color: #FAF1E6;
 }
 
 .txtbox {
