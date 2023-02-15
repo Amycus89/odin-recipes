@@ -1,4 +1,8 @@
 /*Color palette: #FAF1E6 #FDFAF6 #E4EFE7 #064420 #a10800*/
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     margin: 15px;
     color: #a10800;
@@ -15,6 +19,7 @@ header {
     margin: 0;
     padding: 2px;
     border-bottom: 5px solid #FAF1E6;
+    font-family: fantasy sans-serif;
 }
 
 body {
@@ -51,16 +56,19 @@ body {
 }
 
 .flex {
-    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    max-width: 1400px;
+    padding:5px;
+    gap: 15px;
 }
 
 .flex img {
-    width: 100%;
-    max-width: 250px;
-    height: 250px;
+    max-width: 175px;
+    height: 175px;
     border-radius: 10%;
     object-fit: cover;
 }
